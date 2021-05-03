@@ -18,11 +18,12 @@ The user chooses from five options for each character set:
 * Exactly _**x**_ characters
 * Up to _**x**_ characters
 * None of the characters
+
 If cookies are enabled the selected options will be stored for future visits.
 
 ## Meta
-Neil Martin - neilmartin12@me.com
-Distributed under the MIT license. See `LICENCE.txt` for more information.
-https://github.com/neilmartin12/pgweb
-https://pw-generator.herokuapp.com
+* Author: Neil Martin - neilmartin12@me.com
+* Distributed under the MIT license. See `LICENSE.txt` for more information.
+* Git: https://github.com/neilmartin12/pgweb
+* Web: https://pw-generator.herokuapp.com
 
