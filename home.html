@@ -29,13 +29,13 @@
                                 <option value="exactly" selected>Exactly</option>
                             </select>
                         </div>
-                        <div class="col" id="cell_length_min">
-                            <div style="text-align:center" id="label_length_min">8 characters</div>
-                            <input type="range" class="form-range" id="range_length_min" min="1" max="24" value="8" oninput="handle_event('input_length_min')" onchange="handle_event('change_length_min')">
+                        <div class="col" id="cell_min_length">
+                            <div style="text-align:center" id="label_min_length">8 characters</div>
+                            <input type="range" class="form-range" id="range_min_length" min="1" max="24" value="8" oninput="handle_event('input_min_length')" onchange="handle_event('change_min_length')">
                         </div>
-                        <div class="col" id="cell_length_max" style="visibility:hidden">
-                            <div style="text-align:center" id="label_length_max">and</div>
-                            <input type="range" class="form-range" id="range_length_max" min="1" max="24" value="12" oninput="handle_event('input_length_max')" onchange="handle_event('change_length_max')">
+                        <div class="col" id="cell_max_length" style="visibility:hidden">
+                            <div style="text-align:center" id="label_max_length">and</div>
+                            <input type="range" class="form-range" id="range_max_length" min="1" max="24" value="12" oninput="handle_event('input_max_length')" onchange="handle_event('change_max_length')">
                         </div>
                     </div>
                     
@@ -53,13 +53,13 @@
                                 <option value="none">None</option>
                             </select>
                         </div>
-                        <div class="col" id="cell_lower_min">
-                            <div style="text-align:center" id="label_lower_min">1 letter</div>
-                            <input type="range" class="form-range" id="range_lower_min" min="1" max="24" value="1" oninput="handle_event('input_lower_min')" onchange="handle_event('change_lower_min')">
+                        <div class="col" id="cell_min_lower">
+                            <div style="text-align:center" id="label_min_lower">1 letter</div>
+                            <input type="range" class="form-range" id="range_min_lower" min="1" max="24" value="1" oninput="handle_event('input_min_lower')" onchange="handle_event('change_min_lower')">
                         </div>
-                        <div class="col" id="cell_lower_max" style="visibility:hidden">
-                            <div style="text-align:center" id="label_lower_max"></div>
-                            <input type="range" class="form-range" id="range_lower_max" min="1" max="24" value="2" oninput="handle_event('input_lower_max')" onchange="handle_event('change_lower_max')">
+                        <div class="col" id="cell_max_lower" style="visibility:hidden">
+                            <div style="text-align:center" id="label_max_lower"></div>
+                            <input type="range" class="form-range" id="range_max_lower" min="1" max="24" value="2" oninput="handle_event('input_max_lower')" onchange="handle_event('change_max_lower')">
                         </div>
                     </div>
 
@@ -77,13 +77,13 @@
                                 <option value="none">None</option>
                             </select>
                         </div>
-                        <div class="col" id="cell_upper_min">
-                            <div style="text-align:center" id="label_upper_min">1 letter</div>
-                            <input type="range" class="form-range" id="range_upper_min" min="1" max="24" value="1" oninput="handle_event('input_upper_min')" onchange="handle_event('change_upper_min')">
+                        <div class="col" id="cell_min_upper">
+                            <div style="text-align:center" id="label_min_upper">1 letter</div>
+                            <input type="range" class="form-range" id="range_min_upper" min="1" max="24" value="1" oninput="handle_event('input_min_upper')" onchange="handle_event('change_min_upper')">
                         </div>
-                        <div class="col" id="cell_upper_max" style="visibility:hidden">
-                            <div style="text-align:center" id="label_upper_max"></div>
-                            <input type="range" class="form-range" id="range_upper_max" min="1" max="24" value="2" oninput="handle_event('input_upper_max')" onchange="handle_event('change_upper_max')">
+                        <div class="col" id="cell_max_upper" style="visibility:hidden">
+                            <div style="text-align:center" id="label_max_upper"></div>
+                            <input type="range" class="form-range" id="range_max_upper" min="1" max="24" value="2" oninput="handle_event('input_max_upper')" onchange="handle_event('change_max_upper')">
                         </div>
                     </div>
 
@@ -101,13 +101,13 @@
                                 <option value="none">None</option>
                             </select>
                         </div>
-                        <div class="col" id="cell_digit_min">
-                            <div style="text-align:center" id="label_digit_min">1 digit</div>
-                            <input type="range" class="form-range" id="range_digit_min" min="1" max="24" value="1" oninput="handle_event('input_digit_min')" onchange="handle_event('change_digit_min')">
+                        <div class="col" id="cell_min_digit">
+                            <div style="text-align:center" id="label_min_digit">1 digit</div>
+                            <input type="range" class="form-range" id="range_min_digit" min="1" max="24" value="1" oninput="handle_event('input_min_digit')" onchange="handle_event('change_min_digit')">
                         </div>
-                        <div class="col" id="cell_digit_max" style="visibility:hidden">
-                            <div style="text-align:center" id="label_digit_max"></div>
-                            <input type="range" class="form-range" id="range_digit_max" min="1" max="24" value="2" oninput="handle_event('input_digit_max')" onchange="handle_event('change_digit_max')">
+                        <div class="col" id="cell_max_digit" style="visibility:hidden">
+                            <div style="text-align:center" id="label_max_digit"></div>
+                            <input type="range" class="form-range" id="range_max_digit" min="1" max="24" value="2" oninput="handle_event('input_max_digit')" onchange="handle_event('change_max_digit')">
                         </div>
                     </div>
 
@@ -125,26 +125,51 @@
                                 <option value="none">None</option>
                             </select>
                         </div>
-                        <div class="col" id="cell_symbol_min">
-                            <div style="text-align:center" id="label_symbol_min">1 symbol</div>
-                            <input type="range" class="form-range" id="range_symbol_min" min="1" max="24" value="1" oninput="handle_event('input_symbol_min')" onchange="handle_event('change_symbol_min')">
+                        <div class="col" id="cell_min_symbol">
+                            <div style="text-align:center" id="label_min_symbol">1 symbol</div>
+                            <input type="range" class="form-range" id="range_min_symbol" min="1" max="24" value="1" oninput="handle_event('input_min_symbol')" onchange="handle_event('change_min_symbol')">
                         </div>
-                        <div class="col" id="cell_symbol_max" style="visibility:hidden">
-                            <div style="text-align:center" id="label_symbol_max"></div>
-                            <input type="range" class="form-range" id="range_symbol_max" min="1" max="24" value="2" oninput="handle_event('input_symbol_max')" onchange="handle_event('change_symbol_max')">
+                        <div class="col" id="cell_max_symbol" style="visibility:hidden">
+                            <div style="text-align:center" id="label_max_symbol"></div>
+                            <input type="range" class="form-range" id="range_max_symbol" min="1" max="24" value="2" oninput="handle_event('input_max_symbol')" onchange="handle_event('change_max_symbol')">
                         </div>
                     </div>
 
                 </form>
                 <p></p>
-                <p class="lead p-3 mb-2 bg-warning text-dark text-center" id="password"></p>
-                <button type="button" class="btn btn-primary" onclick="handle_event('generate')">Generate password</button>
+                <!-- Password display -->
+                <p class="lead p-3 mb-3 bg-warning text-dark text-center"><samp id="password"></samp></p>
+                <div class="row">
+                    <div class="col" style="text-align: center">
+                        <button type="button" class="btn btn-primary" onclick="handle_event('generate')">Generate password</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cookies toggle -->
+            <div class="card-footer">
+                <div class="row align-items-center">
+                    <div class="col-4 col-md-3">
+                        <p class="card-text">
+                            Cookies:&nbsp;&nbsp;
+                            <input type="radio" class="btn-check" name="cookies-toggle" id="cookies_off" autocomplete="off" checked>
+                            <label class="btn btn-outline-success btn-sm" for="cookies_off">Off</label>
+                            <input type="radio" class="btn-check" name="cookies-toggle" id="cookies_on" autocomplete="off">
+                            <label class="btn btn-outline-success btn-sm" for="cookies_on">On</label>
+                        </p>
+                    </div>
+                    <div class="col-8 col-md-9">
+                        <small class="text-muted" style="vertical-align: bottom;">Cookies will be used to remember your settings for the next time you visit the site.</small>
+                    </div>
+                </div>
             </div>
         </div>
         
 
         <!-- Bootstrap Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+<!-- Password Generator JavaScript code -->
 
 <script type="text/javascript">
 
@@ -176,36 +201,36 @@ function handle_event(event_type){
             break;
 
         // Range control being adjusted
-        case 'input_length_min':
-        case 'input_length_max':
-        case 'input_lower_min':
-        case 'input_lower_max':
-        case 'input_upper_min':
-        case 'input_upper_max':
-        case 'input_digit_min':
-        case 'input_digit_max':
-        case 'input_symbol_min':
-        case 'input_symbol_max':
+        case 'input_min_length':
+        case 'input_max_length':
+        case 'input_min_lower':
+        case 'input_max_lower':
+        case 'input_min_upper':
+        case 'input_max_upper':
+        case 'input_min_digit':
+        case 'input_max_digit':
+        case 'input_min_symbol':
+        case 'input_max_symbol':
             var split_event = event_type.split('_');
-            var charset = split_event[1];
+            var charset = split_event[2];
             var select = document.getElementById('select_' + charset).value;
             set_label(charset, (select == 'between') ? 'double' : 'single');
             break;
 
         // Range control has changed i.e. user has stopped adjusting
-        case 'change_length_min':
-        case 'change_length_max':
-        case 'change_lower_min':
-        case 'change_lower_max':
-        case 'change_upper_min':
-        case 'change_upper_max':
-        case 'change_digit_min':
-        case 'change_digit_max':
-        case 'change_symbol_min':
-        case 'change_symbol_max':
+        case 'change_min_length':
+        case 'change_max_length':
+        case 'change_min_lower':
+        case 'change_max_lower':
+        case 'change_min_upper':
+        case 'change_max_upper':
+        case 'change_min_digit':
+        case 'change_max_digit':
+        case 'change_min_symbol':
+        case 'change_max_symbol':
             var split_event = event_type.split('_');
-            var validate = (split_event[2] == 'min') ? 'max':'min';
-            validate_range(split_event[1], validate);
+            var validate = (split_event[1] == 'min') ? 'max':'min';
+            validate_range(split_event[2], validate);
             break;
     }
 }
@@ -214,8 +239,8 @@ function handle_event(event_type){
 // charset: the character set whose select box has been changed
 // value: the new value in the select bos
 function select_change(charset, value){
-    var min_cell = document.getElementById('cell_' + charset + '_min');
-    var max_cell = document.getElementById('cell_' + charset + '_max');
+    var min_cell = document.getElementById('cell_min_' + charset);
+    var max_cell = document.getElementById('cell_max_' + charset);
 
     switch(value){
         case 'none':
@@ -244,8 +269,8 @@ function select_change(charset, value){
 // charset: charset to validate
 // range: identifies the range control to validate ('max' or 'min')
 function validate_range(charset, range){
-    var range_min = document.getElementById('range_' + charset + '_min');
-    var range_max = document.getElementById('range_' + charset + '_max');
+    var range_min = document.getElementById('range_min_' + charset);
+    var range_max = document.getElementById('range_max_' + charset);
     var min_value = Number(range_min.value);
     var max_value = Number(range_max.value);
 
@@ -269,8 +294,8 @@ function validate_range(charset, range){
 // charset: the charset to set the label for
 // mode: 'single' (for min value only) or 'between' (for double value)
 function set_label(charset, mode){
-    var range_min = document.getElementById('range_' + charset + '_min');
-    var label_min = document.getElementById('label_' + charset + '_min');
+    var range_min = document.getElementById('range_min_' + charset);
+    var label_min = document.getElementById('label_min_' + charset);
     var cmin = range_min.value;
 
     if (mode == 'single'){
@@ -282,8 +307,8 @@ function set_label(charset, mode){
         label_min.innerHTML = cmin + ' and';
 
         // Set second label
-        var range_max = document.getElementById('range_' + charset + '_max');
-        var label_max = document.getElementById('label_' + charset + '_max');
+        var range_max = document.getElementById('range_max_' + charset);
+        var label_max = document.getElementById('label_max_' + charset);
         var cmax = range_max.value;
         label_max.innerHTML = get_charset_label(charset, cmax);
     }
@@ -321,6 +346,7 @@ function choose_char(str){
     return str.charAt(index)
 }
 
+// CharSet object manages a single character set
 function CharSet(type){
     this.type = type;
     this.cmin = 0;
@@ -367,9 +393,44 @@ function PasswordGenerator(){
         new CharSet('digit'),
         new CharSet('symbol')
     ];
+    this.cookiemgr = new CookieManager();
+    
+    // Initialize all controls from cookie values if stored
+    this.init_from_cookies = function(){
+
+        // Get the cookies as an array
+        cookies = this.cookiemgr.read_cookies();
+
+        // Cycle through the cookies and set controls accordingly
+        for (var i = 0; i < cookies.length; i++){
+            var cookie = cookies[i];
+
+            // Select box
+            if (cookie.name.indexOf('select') == 0){
+                var select = document.getElementById(cookie.name);
+                select.value = cookie.value;
+                handle_event(cookie.name);
+            }
+
+            // Range control
+            else if (cookie.name.indexOf('range') == 0){
+                var range = document.getElementById(cookie.name);
+                range.value = Number(cookie.value);
+                handle_event(cookie.name.replace('range','input'));
+            }
+        }
+
+        // Cookies toggle
+        if (cookies.length > 0){
+            document.getElementById('cookies_on').checked = true;
+        }
+    }
 
     // Generate and return a password
     this.generate_password = function(){
+
+        // Store settings
+        this.cookiemgr.write_cookies();
 
         // Set the password length
         this.length = this.get_length();
@@ -395,17 +456,17 @@ function PasswordGenerator(){
 
         // Get the document elements
         var length_select = document.getElementById('select_length');
-        var length_min = document.getElementById('range_length_min');
-        var length_max = document.getElementById('range_length_max');
+        var min_length = document.getElementById('range_min_length');
+        var max_length = document.getElementById('range_max_length');
 
         // Exact length given
         if (length_select.value == 'exactly'){
-            return Number(length_min.value);
+            return Number(min_length.value);
         }
 
         // Between two lengths
-        var nmin = Number(length_min.value);
-        var nmax = Number(length_max.value);
+        var nmin = Number(min_length.value);
+        var nmax = Number(max_length.value);
         return randint(nmin, nmax);
     }
 
@@ -416,8 +477,8 @@ function PasswordGenerator(){
 
             // Get the document elements
             var select = document.getElementById('select_' + rule.type);
-            var range_min = document.getElementById('range_' + rule.type + '_min');
-            var range_max = document.getElementById('range_' + rule.type + '_max');
+            var range_min = document.getElementById('range_min_' + rule.type);
+            var range_max = document.getElementById('range_max_' + rule.type);
 
             // Set min and max values based on select value
             switch(select.value){
@@ -522,8 +583,53 @@ function randint(nmin, nmax){
     return nmin + Math.floor(Math.random() * (nmax - nmin + 1));
 }
 
+// Cookie manager class
+function CookieManager(){
+    this.cookies_on = document.getElementById('cookies_on');
+    this.options = ['length','lower','upper','digit','symbol'];
+    this.attrs = ['select','range_min','range_max'];
+    
+    // Updates all cookies
+    this.write_cookies = function(){
+
+        // Set date based on cookies on/off - 1 year in future/past
+        var d = new Date();
+        var year = 365 * 24 * 60 * 60 * 1000;
+        d.setTime(d.getTime() + (this.cookies_on.checked ? year : (-year)));
+        var expires = 'expires=' + d.toUTCString();
+        
+        // Cycle through cookies to write
+        for (var i = 0; i < this.options.length; i++){
+            for (var j = 0; j < this.attrs.length; j++){
+                var option = this.options[i];
+                var attr = this.attrs[j];
+                var id = attr + '_' + option;
+                var elem = document.getElementById(id);
+                var value = elem.value;
+                document.cookie = 'pwgen_' + id + '=' + value + ';' + expires + ';samesite=lax;path=/';
+            }
+        }
+    }
+
+    // Returns cookie values as an array of objects
+    // with attributes name and value
+    this.read_cookies = function(){
+        var cookie_arr = [];
+        var cookies = document.cookie.split(';');
+        for (var i = 0; i < cookies.length; i++){
+            var c = cookies[i].split('=');
+            var start = c[0].indexOf('pwgen_');
+            if (start >= 0){
+                cookie_arr.push({name:c[0].substr(start+6), value:c[1]});
+            }
+        }
+        return cookie_arr;
+    }
+}
+
 // Global PasswordGenerator object
 var generator = new PasswordGenerator();
+generator.init_from_cookies();
 
 // Mimic a generate password event to display an initial password
 handle_event('generate');
